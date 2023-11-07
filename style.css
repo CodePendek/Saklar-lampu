@@ -1,0 +1,107 @@
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  transition: .5s;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  height: 60px;
+  background: #171717;
+  justify-content: center;
+  gap: 3rem;
+}
+
+nav a{
+  color: white;
+  font-weight: bold;
+}
+
+section{
+  transition: 1s;
+}
+
+#tugasKe1, #tugasKe2{
+  transition: 1s;
+  margin: .7rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: .7rem;
+  background: #333333;
+  margin-top: 1rem;
+  gap: 2rem;
+}
+
+#tugasKe2{
+  flex-direction: column;
+}
+
+#tugasKe2 div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+div h3{
+  flex: 1;
+  display: block;
+  color: #fff;
+  font-size: 17px;
+  width: 100%;
+}
+
+#tugasKe1 div{
+  display: flex;
+  gap: 2rem;
+  justify-content: space-evenly;
+  position: relative;
+}
+
+span{
+  transition: .5s;
+  display: block;
+  width: 50px;
+  height: 50px;
+  background: white;
+  border-radius: .9rem;
+}
+
+p{
+  width: 20px;
+  height: 15px;
+  background: #eeeeee;
+  border-radius: 12rem;
+  display: flex;
+  position: relative;
+  align-items: center;
+  padding: 0 4px;
+}
+
+.on{
+  transform: translateX(10px);
+  transition: .5s;
+  background: blue;
+}
+
+i{
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  background: #000;
+  position: relative;
+  transition: .5s;
+}
+
+.hide{
+  transition: 1s;
+  display: none !important;
+}
+
+.active{
+  background: yellow;
+  box-shadow: 0px 0px 216px 14px rgba(255,217,0,0.9);
+}
